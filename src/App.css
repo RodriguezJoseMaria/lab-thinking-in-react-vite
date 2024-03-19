@@ -36,3 +36,35 @@
     transform: rotate(360deg);
   }
 }
+
+.search-bar {
+  width: 90%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.table {
+  width: 90%;
+  justify-content: center;
+  margin-bottom: 5rem;
+  border-collapse: collapse;
+}
+
+thead {
+  background-color: #797e88;
+  align-items: center;
+  justify-items: center;
+}
+
+th {
+  padding: 0.7rem;
+}
+
+td {
+  padding: 0.7rem;
+  border-bottom: #797e88 1px solid;
+}
